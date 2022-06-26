@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a, a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* header */
+
+.header-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    align-items: center;
+    column-gap: 2rem;
+    /* background: rgb(253, 234, 146); */
+    font-size: 20px;
+    z-index: 100;
+    transition: all ease-in-out .3s;
+}
+#gnb {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    font-weight: bold;
+    width: 1200px;
+    justify-content: center;
+}
+#gnb li:hover {
+    color: white;
+    transition: all ease-in-out .2s;
+}
+
+
+/* main */
+
+.main{
+    position: relative;
+    text-align: center;
+}
+.main-text-wrap {
+    align-items: center;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-text1 span {
+    color: #da8b01;
+}
+.main-text2{
+    text-decoration: underline 4px #95cc5e;
+}
+
+#indexForm {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#infoSerch {
+    padding: 15px 530px 10px 20px;
+    border-radius: 30px;
+    border: 3px solid #333;
+    font-size: 16px;
+}
+#searchBTN {
+    position: absolute;
+    margin-left: 620px;
+}
+
+#indexForm button {
+    border: 0;
+    font-size: 24px;
+    background: white;
+}
+.tag {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: .5rem;
+}
+.tag p {
+    font-size: 13px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 15px;
+    background: rgb(231, 231, 231);
+    padding: 5px 13px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    text-align: center;
+    font-size: 18px;
+    margin: 2rem 0 8rem 0;
+    font-weight: bolder;
+}
+.main-icon1, .main-icon2, .main-icon3 {
+    width: 150px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    margin: 3rem 0 1rem 0;
+    padding: 1.5rem .5rem;
+    font-size: 7rem;
+    color: #ccc;
+}
+.main-icon1:hover, .main-icon2:hover, .main-icon3:hover {
+    background: #eec43a;
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+/* banner */
+
+.banner {
+    margin-bottom: 4rem;
+    position: relative;
+    background: url(../images/main-img2.png) no-repeat center/cover;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.bannert-wrap{
+    width: 100%;
+    padding: 7rem 0 0 45rem;
+}
+.banner-text {
+    position: absolute;
+    color: white;
+    text-shadow: .2rem .4rem .8rem black;
+}
+.banner-text h3 {
+    line-height: 40px;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.banner-text span {
+    font-size: 38px;
+    color: #eec43a;
+}
+.banner-text p {
+    line-height: 20px;
+}
+.banner button {
+    border: 0;
+    margin: 10rem 0 0 18rem;
+    padding: 7px 30px;
+    font-size: 20px;
+    background: #ffe693;
+    border-radius: 20px;
+}
+
+/* main info */
+.main-info {
+    width: 1020px;
+    margin: 0 auto;
+}
+.main-info h2 {
+    text-align: center;
+    margin: 8rem 0 4rem 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-wrap1 {
+    display: flex;
+    column-gap: 20px;
+}
+.info-wrap2 {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 3rem;
+}
+.main-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: .7rem 15px 0 15px;
+}
+.main-info p {
+    padding: .5rem 0;
+    font-size: 12px;
+}
+.main-info button {
+    border: 0;
+    background: #ffe693;
+    border-radius: 20px;
+    padding: 3px 12px;
+}
+.pb-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.info1, .info2, .info3, .info4 {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+}
+.info-img {
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+}
+.info1 img:hover, .info2 img:hover, .info3 img:hover, .info4 img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.4s;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 260px;
+    background-color: #333;
+    color: rgb(245, 239, 239);
+}
+.footer-wrap {
+    width: 1200px;
+    margin: 10rem auto;
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+.footer-menu {
+    display: flex;
+    font-size: 18px;
+    column-gap: 3rem;
+    padding: 2rem 0 4rem 0;
+}
+address p{
+    line-height: 20px;
+}
+
+
+/* about */
+.main-top{
+    width: 100%;
+    padding-top: 100px;
+}
+.main-top img {
+    width: 100%;
+    height: 500px;
+}
+.about-text-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-text {
+  position: absolute;
+  color: #fff;
+  z-index: 10;
+  margin-top: 180px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #444;
+  text-align: left;
+  border-left: 9px solid #eec43a;
+}
+.about-text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 0 0 5px 13px;
+}
+.about-text p {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.about-home {
+    margin-top: 15px;
+    width: 1200px;
+    text-align: right;
+    font-size: 13px;
+}
+.about-title {
+    margin: 10rem 0 7rem 0;
+    font-size: 25px;
+    background: #ffe693;
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+.about-imgs {
+    font-size: 0;
+}
+.about-imgs-wrap1 img {
+    margin: 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+
+}
+.about-imgs-wrap2 img {
+    margin: 0 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+
+}
+.woodada-text {
+    padding: 4rem 0;
+}
+.woodada-text h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.woodada-text p {
+    padding: 2rem 0 10rem 0;
+    line-height: 20px;
+}
+.about-bottom {
+    display: flex;
+    align-items: center;
+}
+.bottom-text {
+    background: #ccc;
+    width: 100%;
+    padding: 180px 40px;
+    text-align: right;
+}
+.bottom-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+.bottom-text p {
+    line-height: 20px;
+}
+
+.sns {
+    padding-top: 10rem;
+}
+.icons img {
+    width: 100px;
+}
+.sns p {
+    text-align: center;
+}
