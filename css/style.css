@@ -338,3 +338,7 @@ address p{
 .sns p {
     text-align: center;
 }
+.sns img:hover {
+    opacity: 60%;
+    transition: all ease-in-out .3s;
+}
