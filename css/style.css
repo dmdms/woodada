@@ -33,7 +33,7 @@ a, a:link {
     justify-content: center;
 }
 #gnb li:hover {
-    color: white;
+    color: #95cc5e;
     transition: all ease-in-out .2s;
 }
 
