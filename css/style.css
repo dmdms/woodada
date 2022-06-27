@@ -158,6 +158,11 @@ a, a:link {
     background: #ffe693;
     border-radius: 20px;
 }
+.banner button:hover {
+    background-color: #da8b01;
+    color: white;
+    transition: all ease-in-out .2s;
+}
 
 /* main info */
 .main-info {
