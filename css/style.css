@@ -347,3 +347,100 @@ address p{
     opacity: 60%;
     transition: all ease-in-out .3s;
 }
+
+
+/* talk */
+
+.talk-title {
+    margin: 7rem 0 9rem 0;
+}
+.talk-title h2 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.talk-title p {
+    font-size: 13px;
+}
+.talk-cont1 {
+    display: flex;
+    width: 1200px;
+    margin: 5rem auto;
+    padding: .3rem;
+    box-shadow: 0 0 1rem rgb(0 , 0, 0, .2);
+}
+.talk-text-wrap {
+    padding: 0 30px;
+    width: 850px;
+    height: 350px;
+    overflow: hidden;
+}
+.tcont-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 2rem 0;
+}
+.talk-img {
+    width: 340px;
+    height: 350px;
+    overflow: hidden;
+}
+.talk-img img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
+    opacity: 70%;
+}
+.tcont-title h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.talk-inner-text {
+    text-align: left;
+    padding: 0 0 4rem 0;
+    line-height: 25px;
+    font-size: 18px;
+}
+.talk-tag {
+    display: flex;
+    column-gap: .5rem;
+}
+.talk-tag p:hover {
+    background: #ffe693;
+    transition: all ease-in-out .3s;
+}
+
+.talk-tag p {
+    font-size: 16px;
+    border-radius: 15px;
+    background: rgb(231, 231, 231);
+    padding: 5px 15px;
+}
+.tag-heart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-heart, .fa-comment {
+    font-size: 24px;
+}
+.like-comment {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.2rem;
+    align-items: center;
+}
+.like-wrap {
+    display: flex;
+    column-gap: .4rem;
+}
+.comment-wrap {
+    display: flex;
+    column-gap: .4rem;
+
+}
+.heart-2, .heart-4, .heart-6, .heart-8, .heart-10 {
+    display: none;
+}
+.h-2, .h-4, .h-6, .h-8, .h-10{
+    display: none;
+}
